@@ -1,0 +1,4 @@
+For VS2013 on 64-bit windows:
+1) Instal boost binaries or win64 to C:\Boost
+2) Define CMake variable -DBoost_LIBRARY_DIR=C:\Boost\lib64-vs12.0
+3) Add define BOOST_ALL_NO_LIB to CMakeLists or before including boost headers
