@@ -1,2 +1,1 @@
-##
-*C++ homework
+##C++ homework
