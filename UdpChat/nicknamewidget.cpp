@@ -26,7 +26,9 @@ NicknameWidget::NicknameWidget(QWidget *parent) : QWidget(parent) {
 
 NicknameWidget::~NicknameWidget()
 {
-
+    delete statusLabel;
+    delete okButton;
+    delete lineEdit;
 }
 
 void NicknameWidget::done()

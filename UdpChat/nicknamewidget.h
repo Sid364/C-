@@ -17,7 +17,7 @@ private:
     QPushButton *okButton;
     QLineEdit *lineEdit;
 signals:
-    newNickname(QString nick);
+    void newNickname(QString nick);
 
 public slots:
     void done();

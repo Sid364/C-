@@ -28,8 +28,7 @@ MainWindow::MainWindow(QWidget *parent) :
 MainWindow::~MainWindow() {
     delete ui;
 }
-
-MainWindow::closing() {
+void MainWindow::closing() {
     send("i go away", PERSON_LEFT);
 }
 void MainWindow::returnPressed() {
